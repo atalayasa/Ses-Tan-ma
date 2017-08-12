@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47DC10901F3EFE680040E834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DC108F1F3EFE680040E834 /* AppDelegate.swift */; };
-		47DC10921F3EFE680040E834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DC10911F3EFE680040E834 /* ViewController.swift */; };
-		47DC10951F3EFE680040E834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DC10931F3EFE680040E834 /* Main.storyboard */; };
-		47DC10971F3EFE680040E834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DC10961F3EFE680040E834 /* Assets.xcassets */; };
-		47DC109A1F3EFE680040E834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DC10981F3EFE680040E834 /* LaunchScreen.storyboard */; };
+		47DC10AE1F3F52EC0040E834 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 47DC10AD1F3F52EC0040E834 /* test.m4a */; };
+		717E12641D5B4D590007BCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E12631D5B4D590007BCF5 /* AppDelegate.swift */; };
+		717E12661D5B4D590007BCF5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E12651D5B4D590007BCF5 /* MainVC.swift */; };
+		717E12691D5B4D590007BCF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717E12671D5B4D590007BCF5 /* Main.storyboard */; };
+		717E126B1D5B4D590007BCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717E126A1D5B4D590007BCF5 /* Assets.xcassets */; };
+		717E126E1D5B4D590007BCF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717E126C1D5B4D590007BCF5 /* LaunchScreen.storyboard */; };
+		717E12791D5B4F7A0007BCF5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E12781D5B4F7A0007BCF5 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47DC108C1F3EFE680040E834 /* Katip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Katip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DC108F1F3EFE680040E834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47DC10911F3EFE680040E834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47DC10941F3EFE680040E834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		47DC10961F3EFE680040E834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47DC10991F3EFE680040E834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		47DC109B1F3EFE680040E834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DC10AD1F3F52EC0040E834 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		717E12601D5B4D590007BCF5 /* Katip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Katip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		717E12631D5B4D590007BCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717E12651D5B4D590007BCF5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		717E12681D5B4D590007BCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717E126A1D5B4D590007BCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717E126D1D5B4D590007BCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717E126F1D5B4D590007BCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717E12781D5B4F7A0007BCF5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47DC10891F3EFE680040E834 /* Frameworks */ = {
+		717E125D1D5B4D580007BCF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,73 +39,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47DC10831F3EFE680040E834 = {
+		717E12571D5B4D580007BCF5 = {
 			isa = PBXGroup;
 			children = (
-				47DC108E1F3EFE680040E834 /* Katip */,
-				47DC108D1F3EFE680040E834 /* Products */,
+				717E12621D5B4D590007BCF5 /* Katip */,
+				717E12611D5B4D590007BCF5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		47DC108D1F3EFE680040E834 /* Products */ = {
+		717E12611D5B4D590007BCF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47DC108C1F3EFE680040E834 /* Katip.app */,
+				717E12601D5B4D590007BCF5 /* Katip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47DC108E1F3EFE680040E834 /* Katip */ = {
+		717E12621D5B4D590007BCF5 /* Katip */ = {
 			isa = PBXGroup;
 			children = (
-				47DC108F1F3EFE680040E834 /* AppDelegate.swift */,
-				47DC10911F3EFE680040E834 /* ViewController.swift */,
-				47DC10931F3EFE680040E834 /* Main.storyboard */,
-				47DC10961F3EFE680040E834 /* Assets.xcassets */,
-				47DC10981F3EFE680040E834 /* LaunchScreen.storyboard */,
-				47DC109B1F3EFE680040E834 /* Info.plist */,
+				717E127C1D5B56FC0007BCF5 /* Resources */,
+				717E12771D5B4F670007BCF5 /* Controller */,
+				717E12761D5B4F640007BCF5 /* View */,
+				717E12751D5B4F600007BCF5 /* Model */,
+				717E126A1D5B4D590007BCF5 /* Assets.xcassets */,
+				717E126F1D5B4D590007BCF5 /* Info.plist */,
 			);
-			path = Katip;
+			name = Katip;
+			path = Scribe;
+			sourceTree = "<group>";
+		};
+		717E12751D5B4F600007BCF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		717E12761D5B4F640007BCF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				717E12671D5B4D590007BCF5 /* Main.storyboard */,
+				717E126C1D5B4D590007BCF5 /* LaunchScreen.storyboard */,
+				717E12781D5B4F7A0007BCF5 /* RoundButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		717E12771D5B4F670007BCF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				717E12651D5B4D590007BCF5 /* MainVC.swift */,
+				717E12631D5B4D590007BCF5 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		717E127C1D5B56FC0007BCF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47DC10AD1F3F52EC0040E834 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47DC108B1F3EFE680040E834 /* Katip */ = {
+		717E125F1D5B4D580007BCF5 /* Katip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47DC109E1F3EFE680040E834 /* Build configuration list for PBXNativeTarget "Katip" */;
+			buildConfigurationList = 717E12721D5B4D590007BCF5 /* Build configuration list for PBXNativeTarget "Katip" */;
 			buildPhases = (
-				47DC10881F3EFE680040E834 /* Sources */,
-				47DC10891F3EFE680040E834 /* Frameworks */,
-				47DC108A1F3EFE680040E834 /* Resources */,
+				717E125C1D5B4D580007BCF5 /* Sources */,
+				717E125D1D5B4D580007BCF5 /* Frameworks */,
+				717E125E1D5B4D580007BCF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Katip;
-			productName = Katip;
-			productReference = 47DC108C1F3EFE680040E834 /* Katip.app */;
+			productName = Scribeee;
+			productReference = 717E12601D5B4D590007BCF5 /* Katip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		47DC10841F3EFE680040E834 /* Project object */ = {
+		717E12581D5B4D580007BCF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Atalay Asa";
+				ORGANIZATIONNAME = "Caleb Stultz";
 				TargetAttributes = {
-					47DC108B1F3EFE680040E834 = {
-						CreatedOnToolsVersion = 8.3.3;
+					717E125F1D5B4D580007BCF5 = {
+						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = XBXBJNJ6HY;
+						DevelopmentTeamName = "Caleb Stultz (Personal Team)";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 47DC10871F3EFE680040E834 /* Build configuration list for PBXProject "Katip" */;
+			buildConfigurationList = 717E125B1D5B4D580007BCF5 /* Build configuration list for PBXProject "katip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +150,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 47DC10831F3EFE680040E834;
-			productRefGroup = 47DC108D1F3EFE680040E834 /* Products */;
+			mainGroup = 717E12571D5B4D580007BCF5;
+			productRefGroup = 717E12611D5B4D590007BCF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47DC108B1F3EFE680040E834 /* Katip */,
+				717E125F1D5B4D580007BCF5 /* Katip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47DC108A1F3EFE680040E834 /* Resources */ = {
+		717E125E1D5B4D580007BCF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DC109A1F3EFE680040E834 /* LaunchScreen.storyboard in Resources */,
-				47DC10971F3EFE680040E834 /* Assets.xcassets in Resources */,
-				47DC10951F3EFE680040E834 /* Main.storyboard in Resources */,
+				47DC10AE1F3F52EC0040E834 /* test.m4a in Resources */,
+				717E126E1D5B4D590007BCF5 /* LaunchScreen.storyboard in Resources */,
+				717E126B1D5B4D590007BCF5 /* Assets.xcassets in Resources */,
+				717E12691D5B4D590007BCF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47DC10881F3EFE680040E834 /* Sources */ = {
+		717E125C1D5B4D580007BCF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DC10921F3EFE680040E834 /* ViewController.swift in Sources */,
-				47DC10901F3EFE680040E834 /* AppDelegate.swift in Sources */,
+				717E12791D5B4F7A0007BCF5 /* RoundButton.swift in Sources */,
+				717E12661D5B4D590007BCF5 /* MainVC.swift in Sources */,
+				717E12641D5B4D590007BCF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47DC10931F3EFE680040E834 /* Main.storyboard */ = {
+		717E12671D5B4D590007BCF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				47DC10941F3EFE680040E834 /* Base */,
+				717E12681D5B4D590007BCF5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		47DC10981F3EFE680040E834 /* LaunchScreen.storyboard */ = {
+		717E126C1D5B4D590007BCF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				47DC10991F3EFE680040E834 /* Base */,
+				717E126D1D5B4D590007BCF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,12 +207,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		47DC109C1F3EFE680040E834 /* Debug */ = {
+		717E12701D5B4D590007BCF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -205,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -215,12 +257,11 @@
 			};
 			name = Debug;
 		};
-		47DC109D1F3EFE680040E834 /* Release */ = {
+		717E12711D5B4D590007BCF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -250,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,12 +300,11 @@
 			};
 			name = Release;
 		};
-		47DC109F1F3EFE680040E834 /* Debug */ = {
+		717E12731D5B4D590007BCF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XBXBJNJ6HY;
-				INFOPLIST_FILE = Katip/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Scribe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atalayasa.Katip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,12 +312,11 @@
 			};
 			name = Debug;
 		};
-		47DC10A01F3EFE680040E834 /* Release */ = {
+		717E12741D5B4D590007BCF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XBXBJNJ6HY;
-				INFOPLIST_FILE = Katip/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Scribe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atalayasa.Katip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,24 +327,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47DC10871F3EFE680040E834 /* Build configuration list for PBXProject "Katip" */ = {
+		717E125B1D5B4D580007BCF5 /* Build configuration list for PBXProject "katip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47DC109C1F3EFE680040E834 /* Debug */,
-				47DC109D1F3EFE680040E834 /* Release */,
+				717E12701D5B4D590007BCF5 /* Debug */,
+				717E12711D5B4D590007BCF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47DC109E1F3EFE680040E834 /* Build configuration list for PBXNativeTarget "Katip" */ = {
+		717E12721D5B4D590007BCF5 /* Build configuration list for PBXNativeTarget "Katip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47DC109F1F3EFE680040E834 /* Debug */,
-				47DC10A01F3EFE680040E834 /* Release */,
+				717E12731D5B4D590007BCF5 /* Debug */,
+				717E12741D5B4D590007BCF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 47DC10841F3EFE680040E834 /* Project object */;
+	rootObject = 717E12581D5B4D580007BCF5 /* Project object */;
 }
